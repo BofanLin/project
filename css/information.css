@@ -1,0 +1,39 @@
+.information-item {
+    display: flex;
+    height: 300px;
+    overflow: hidden;
+}
+
+.information-item .text {
+    padding: 20px 0;
+}
+
+.information-item .text p {
+    color: #a9a9a9;
+    font-size: 15px;
+}
+
+.information-item .btns {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    flex: 1;
+}
+
+.information-item .btns>div {
+    flex: 1;
+}
+
+.btns div:nth-child(1) {
+    padding: 50px;
+}
+
+.btns .btn {
+    background-image: linear-gradient(#F36000, #FEAB73);
+    border: 0;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: #fff;
+}

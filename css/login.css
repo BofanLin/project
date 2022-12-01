@@ -1,0 +1,41 @@
+.login-container {
+  background-color: #fff;
+  width: 800px;
+  height: 550px;
+  margin: 50px auto;
+  display: flex;
+  border-radius: 20px;
+  border: 1px solid #dfdfdf;
+
+}
+
+.login-container .right-login-form {
+  flex: 1;
+  padding: 30px;
+}
+
+.login-container .right-login-form .title {
+  text-align: center;
+}
+
+.right-login-form .form-item {
+  margin: 40px 0;
+}
+
+.right-login-form .form-item input {
+  width: 100%;
+  padding: 8px 4px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+}
+
+.right-login-form .loginBtn {
+  width: 100%;
+  border: 0;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, #f1817b, #eebec3);
+}

@@ -1,0 +1,168 @@
+.acc-wrap {
+  display: flex;
+  margin-top: 30px;
+  padding: 20px 0;
+  border-bottom: 1px solid #f4737e;
+}
+
+.acc-wrap .accInfo {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.acc-wrap .accInfo div:nth-child(1) {
+  font-weight: bold;
+}
+.content-wrap {
+  margin-bottom: 20px;
+}
+
+.content-wrap .content-tabs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-tabs > div {
+  padding: 5px;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.content-tabs > div.active {
+  background-image: linear-gradient(60deg, #f28b88, #efcbcc);
+}
+
+.content-tabs img {
+  width: 40px;
+}
+.zoo-list {
+  margin-bottom: 100px;
+}
+.zoo-list .zoo-list-item {
+  margin: 40px 0;
+}
+
+.zoo-list-item .tips {
+  padding: 20px 0;
+  display: none;
+}
+
+.zoo-list .zoo-item {
+  height: 200px;
+  padding: 10px 0;
+  display: flex;
+  margin: 10px 0;
+}
+
+.zoo-item .image {
+  width: 300px;
+  background-color: #fff;
+  height: 190px;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.zoo-item .image img {
+  position: absolute;
+  left: -50px;
+  top: -40px;
+}
+
+.zoo-item .zoo-info {
+  padding: 0 20px;
+  flex: 1;
+}
+
+.zoo-item .zoo-info-title {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.zoo-item .zoo-info-desc {
+  width: 500px;
+  line-height: 30px;
+  color: #a9a9a9;
+}
+
+.zoo-item .zoo-info-icons ul {
+  list-style: none;
+  display: flex;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.zoo-item .zoo-info-icons ul img {
+  width: 40px;
+  margin: 0 5px;
+}
+
+.zoo-item .zoo-btns {
+  width: 300px;
+}
+
+.zoo-item .donatioinBtn {
+  padding: 20px;
+  outline: none;
+  border: 0;
+  border-radius: 15px;
+  background-color: #e47a80;
+  color: #eee;
+}
+
+.zoo-item .zoo-btns-icons {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.zoo-item .zoo-btns-donation {
+  text-align: center;
+}
+
+.zoo-item .zoo-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.zoo-item .zoo-btns-toggle {
+  text-align: right;
+}
+
+.zoo-item .range-c {
+  display: flex;
+}
+.zoo-item .range-c .range {
+  width: 80%;
+  background-color: pink;
+  border-radius: 999px;
+  display: flex;
+  margin-right: 20px;
+}
+
+.zoo-item .range-active {
+  background-image: linear-gradient(60deg, #f36000, #ffb07c);
+  width: 70%;
+  margin-right: 10px;
+  border-radius: 999px;
+}
+
+.project-progress-list table {
+  width: 100%;
+}
+
+.project-progress-list table tr {
+  display: flex;
+  border-bottom: 1px solid #e47a80;
+  padding: 10px 0;
+}
+
+.project-progress-list table tr td,
+.project-progress-list table tr th {
+  flex: 1;
+  text-align: center;
+  color: #434343;
+}

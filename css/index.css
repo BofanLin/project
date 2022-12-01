@@ -1,0 +1,125 @@
+body {
+  padding: 0 0 30px 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #c6d4a4;
+  min-height: 100vh;
+  position: relative;
+  background-image: url(../images/bg.png);
+}
+
+.w {
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.header-wrap {
+  /* background-color: #e47a80; */
+  height: 70px;
+  line-height: 70px;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-header .logo {
+  font-weight: bold;
+  width: 60px;
+  height: 60px;
+  /* border-radius: 50%; */
+  /* background-color: #fff; */
+  background-image: url(../images/logo.svg);
+  background-size: cover;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list .nav-item {
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.nav-list .nav-item.active a {
+  color: #f36000;
+  font-weight: bold;
+}
+
+.nav-list .nav-item .information-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 999;
+  background-color: #e47a80;
+  text-align: center;
+  height: 0;
+  overflow: hidden;
+}
+
+.nav-list .nav-item .information-items li {
+  height: 70px;
+  line-height: 70px;
+}
+
+.information-link:hover .information-items {
+  display: block;
+  height: 140px;
+  transition: 0.5s;
+}
+
+.nav-list .nav-item a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-list .nav-item a:hover {
+  text-decoration: underline;
+}
+
+.right-nav {
+  display: flex;
+}
+
+.right-nav .nav-item {
+  height: 70px;
+  line-height: 70px;
+  width: 100px;
+  text-align: center;
+}
+
+.right-nav .nav-item .btn {
+  background-image: linear-gradient(45deg, #f46406, #ffb07c);
+  display: inline-block;
+  width: 100px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 1px 2px 1px #dfdfdf;
+  height: 50px;
+  line-height: 50px;
+}
+
+.footer-wrap {
+  text-align: center;
+  overflow: hidden;
+}
+
+.footer-wrap .w{
+  display: flex;
+}
+
+.footer-wrap .w>div{
+  flex: 1;
+}
